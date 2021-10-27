@@ -1,0 +1,100 @@
+.DetailsContainer{
+    padding-bottom: 75px;
+}
+
+#Details{
+    background-color: #080809;
+}
+.DetailsTitle{
+    font-family: 'Reggae One', cursive;
+    color:white;
+    font-size: 4.25rem !important;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.DetailsText{
+    font-family: 'Reggae One', cursive;
+    color:white;
+
+    font-size: 1.4rem !important;
+    padding-top: 5rem;
+}
+
+.DetailsText1{
+    font-family: 'Reggae One', cursive;
+    color:white;
+
+    font-size: 1.4rem !important;
+    padding-top: 2rem;
+}
+
+.DetailsText2{
+    font-family: 'Reggae One', cursive;
+    color:white;
+
+    font-size: 1.4rem !important;
+    padding-top: 2rem;
+}
+
+.DetailsPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .DetailsTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 4rem !important;
+        padding-top: 3rem;
+    }
+    .DetailsText{
+        font-size: 1rem !important;
+        padding-top: 5rem;
+    }
+    
+    .DetailsText1{
+        font-size: 1rem !important;
+        padding-top: 1.5rem;
+    }
+    
+    .DetailsText2{
+        font-size: 1rem !important;
+        padding-top: 1.5rem;
+        color: white;
+    }
+  }
+  @media only screen and (max-width: 462px) {
+    .DetailsTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3.5rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .DetailsTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3.25rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 382px) {
+    .DetailsTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 354px) {
+    .DetailsTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 2.5rem !important;
+        padding-top: 3rem;
+    }
+  }

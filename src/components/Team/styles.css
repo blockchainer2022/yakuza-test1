@@ -1,0 +1,63 @@
+.teamContainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Reggae One', cursive;
+
+    font-size: 1rem !important;
+    font-weight: 100;
+}
+
+#Team{
+    background-color: #1b1728;
+}
+.card1{
+    margin-top: 1rem;
+    background-color: #484553!important;
+    color: white;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    text-align: center;
+    min-height: 600px;
+
+}
+
+.teamTitle{
+    padding-top: 15px;
+    font-size: 4.25rem !important;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: white;
+}
+
+.cardPhoto{
+    padding: 1rem;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .teamTitle{
+        font-size: 3.5rem !important;
+        padding-bottom: 0.5em;
+    }
+  }
+  @media only screen and (max-width: 476px) {
+    .teamTitle{
+        font-size: 3rem !important;
+        padding-bottom: 0.5em;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .teamTitle{
+        font-size: 2.8rem !important;
+        padding-bottom: 0.5em;
+    }
+  }
+  @media only screen and (max-width: 388px) {
+    .teamTitle{
+        font-size: 2.25rem !important;
+        padding-bottom: 0.5em;
+    }
+  }

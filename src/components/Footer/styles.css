@@ -1,0 +1,13 @@
+.footer{
+    background-color: #080809 !important;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Reggae One', cursive;
+    font-size: 2rem;
+}
+
+.footerButton{
+    margin-top: 15px;
+}

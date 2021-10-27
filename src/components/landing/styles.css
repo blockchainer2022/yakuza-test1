@@ -1,0 +1,196 @@
+.heroText{
+    font-family: 'Reggae One', cursive;
+
+    font-size: 1.25rem !important;
+    color:white;
+    padding-top: 20px;
+    padding-bottom:20px
+}
+.proText{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 1.25rem !important;
+        color:white;
+        padding-top: 20px;
+}
+
+.listText{
+    font-family: 'Reggae One', cursive;
+
+    font-size: 1rem !important;
+    color:white;
+    padding-top: 20px;
+}
+.heroTitle{
+    font-family: 'Reggae One', cursive;
+
+    padding-top:25%;
+    color:white;
+}
+.heroPic{
+    margin-top: 15%;
+}
+.landingBack{
+    background-color: #240a12;
+}
+.heroButton{
+    background-color: #4dc4ff !important;
+    border-color: #5ec9ff !important; 
+    color: black !important;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 6rem;
+    font-size: 1rem !important;
+}
+.mintButton{
+    font-size: 1.5rem !important;
+    background-color: #564c53 !important;
+    border-color: #564c53 !important;
+    font-family: 'Reggae One', cursive;
+
+}
+
+.progress{
+  background-color: black !important;
+
+}
+.progress-bar{
+    background-color: white !important;
+}
+.heroButtonDiv{
+    padding-top: 3rem;
+}
+
+.heroContainer{
+    padding-bottom: 5rem;
+}
+
+
+@media only screen and (max-width: 1270px) {
+    .heroPic{
+        margin-left:15%;
+        margin-right:30%;
+        width: 500px;
+        height: 500px;
+    }
+  }
+@media only screen and (max-width: 1201px) {
+    .heroButton{
+        margin-right:1rem !important;
+        font-size: 0.81rem!important;
+    }
+    .paw{
+        margin-right:1rem !important;
+    }
+  }
+@media only screen and (max-width: 1155px) {
+    .heroPic{
+        margin-right:25%;
+        margin-left:10%;
+
+    }
+  }
+@media only screen and (max-width: 1103px) {
+    .heroPic{
+        margin-right:16%;
+        margin-left:5%;
+
+        width: 450px;
+        height: 450px;
+    }
+  }
+  @media only screen and (max-width: 535px) {
+    .heroPic{
+        margin-left:8%;
+        margin-right:15%;
+    }
+  }
+  @media only screen and (max-width: 503px) {
+    .heroPic{
+        margin-left:5%;
+        margin-right:10%;
+    }
+  }
+  @media only screen and (max-width: 479px) {
+    .heroPic{
+        margin-left:1%;
+        margin-right:2%;
+    }
+    .heroButton{
+        font-size: 0.71rem!important;
+    }
+  }
+  @media only screen and (max-width: 471px) {
+    .heroPic{
+       width: 360px;
+       height: 360px;
+       margin-left:10%;
+        margin-right:8%;
+    }
+  }
+  @media only screen and (max-width: 455px) {
+    .heroButton{
+        font-size: 0.65rem!important;
+    }
+  }
+  @media only screen and (max-width: 443px) {
+    .heroButton{
+        font-size: 0.6rem!important;
+    }
+  }
+  @media only screen and (max-width: 415px) {
+    .heroPic{
+       width: 360px;
+       height: 360px;
+       margin-left:6%;
+        margin-right:8%;
+    }
+    .paw{
+      margin-right:0.5rem !important;
+    }
+    .heroButton{
+      margin-right: 0.6rem!important;
+    }
+  }
+  @media only screen and (max-width: 393px) {
+    .heroPic{
+       width: 325px;
+       height: 325px;
+       margin-left:3%;
+        margin-right:8%;
+    }
+    .heroButton{
+      margin-right: 0.4rem!important;
+    }
+  }
+  @media only screen and (max-width: 379px) {
+    .heroPic{
+      width: 325px;
+      height: 325px;
+       margin-left:1%;
+       margin-right:8%;
+    }
+    .heroButton{
+      margin-right: 0.2rem!important;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .heroPic{
+      width: 325px;
+      height: 325px;
+       margin-left:1%;
+       margin-right:8%;
+    }
+    .heroButton{
+      margin-right: 0.1rem!important;
+    }
+  }
+  @media only screen and (max-width: 370px) {
+    .heroPic{
+      width: 325px;
+      height: 325px;
+       margin-left:1%;
+       margin-right:8%;
+    }
+    
+  }
+  

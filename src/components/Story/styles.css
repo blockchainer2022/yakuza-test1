@@ -1,0 +1,131 @@
+.storyContainer{
+    padding-bottom: 75px;
+}
+.storyTitle{
+    font-family: 'Reggae One', cursive;
+color: white;
+    font-size: 3.5rem !important;
+    padding-top: 5rem;
+    text-align: center;
+}
+#Features{
+    background-color: #080809;
+}
+.storyText{
+    font-family: 'Reggae One', cursive;
+    color: white;
+
+    font-size: 1.4rem !important;
+    padding-top: 5rem;
+}
+
+.storyText1{
+    font-family: 'Reggae One', cursive;
+    color: white;
+
+    font-size: 1.4rem !important;
+    padding-top: 2rem;
+}
+
+.storyText2{
+    font-family: 'Reggae One', cursive;
+    color: white;
+
+    font-size: 1.4rem !important;
+    padding-top: 2rem;
+}
+
+.storyPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .storyTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 4rem !important;
+        padding-top: 3rem;
+    }
+    .storyText{
+        font-size: 1rem !important;
+        padding-top: 5rem;
+    }
+    
+    .storyText1{
+        font-size: 1rem !important;
+        padding-top: 1.5rem;
+    }
+    
+    .storyText2{
+        font-size: 1rem !important;
+        padding-top: 1.5rem;
+        color: white;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+      .storyPic{
+          height:405px;
+          width:405px;
+      }
+
+  }
+  @media only screen and (max-width: 990px){
+    .storyContainer {
+        max-width: 1000px !important;
+    }
+  }
+  @media only screen and (max-width: 816px) {
+    .storyPic{
+        height:375px;
+        width:375px;
+    }
+
+}
+@media only screen and (max-width: 766px) {
+    .storyPic{
+        height:450px;
+        width:450px;
+    }
+
+}
+@media only screen and (max-width: 470px) {
+    .storyPic{
+        height:300px;
+        width:300px;
+    }
+
+}
+  @media only screen and (max-width: 462px) {
+    .storyTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3.5rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .storyTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3.25rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 382px) {
+    .storyTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 354px) {
+    .storyTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 2.5rem !important;
+        padding-top: 3rem;
+    }
+  }

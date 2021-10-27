@@ -1,0 +1,102 @@
+.missionContainer{
+    padding-bottom: 75px;
+}
+#mission{
+    background-color: #1b1728;
+}
+.missionTitle{
+    font-family: 'Reggae One', cursive;
+
+    font-size: 4.25rem !important;
+    padding-top: 3rem;
+    text-align: center;
+    color:white
+
+}
+
+.missionText{
+    font-family: 'Reggae One', cursive;
+
+    font-size: 1.4rem !important;
+    padding-top: 5rem;
+    color:white
+}
+
+.missionText1{
+    font-family: 'Reggae One', cursive;
+
+    font-size: 1.4rem !important;
+    padding-top: 2rem;
+    color:white
+
+}
+
+.missionText2{
+    font-family: 'Reggae One', cursive;
+
+    font-size: 1.4rem !important;
+    padding-top: 2rem;
+}
+
+.missionPic{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .missionTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 4rem !important;
+        padding-top: 3rem;
+    }
+    .missionText{
+        font-size: 1rem !important;
+        padding-top: 5rem;
+    }
+    
+    .missionText1{
+        font-size: 1rem !important;
+        padding-top: 1.5rem;
+    }
+    
+    .missionText2{
+        font-size: 1rem !important;
+        padding-top: 1.5rem;
+        color: white;
+    }
+  }
+  @media only screen and (max-width: 462px) {
+    .missionTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3.5rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 410px) {
+    .missionTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3.25rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 382px) {
+    .missionTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 3rem !important;
+        padding-top: 3rem;
+    }
+  }
+  @media only screen and (max-width: 354px) {
+    .missionTitle{
+        font-family: 'Reggae One', cursive;
+
+        font-size: 2.5rem !important;
+        padding-top: 3rem;
+    }
+  }
