@@ -58,7 +58,7 @@ const Index = ({
       loadWeb3();
     }
   };
-
+  const leftNfts = maxSupply - totalSupply;
   return (
     <div id="home" className="landingBack">
       <Container className="heroContainer">
@@ -80,7 +80,7 @@ const Index = ({
                 {account ? "Mint Your Yakuza" : "Connect Wallet"}
               </Button>
               <div className="proText">
-                {maxSupply - totalSupply} Yakuza Members left
+                {leftNfts > 0 ? leftNfts : 0} Yakuza Members left: ;
               </div>
               <ProgressBar
                 className="progressBar"
